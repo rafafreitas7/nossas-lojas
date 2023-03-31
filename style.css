@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+ h1 {
+    text-align: center;
+    padding: 40px;
+    font-size: 50px;
+    color: #243573;
+ }
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.container-3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.container-4 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.container-5 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.container-6 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.img-left img {
+    width: 370px;
+    height: 240px;
+    border-radius: 15px;
+}
+
+#img-amz {
+    margin-left: 4px;
+}
+
+#img-smm {
+    margin-left: 4px;
+}
+
+#img-via {
+    margin-left: 4px;
+}
+
+#img-bh {
+    margin-left: -40px;
+}
+
+#img-db {
+    margin-left: -24px;
+}
+
+#img-std5 {
+    margin-left: 7px;
+}
+
+#img-gc {
+    margin-left: 7px;
+}
+
+#img-bv {
+    margin-left: -25px;
+}
+
+#img-pn {
+    margin-left: 7px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(223, 219, 219, 0.678);
+    border-radius: 10px;
+    padding: 5px;
+    width: 730px;
+}
+
+.content-right {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+}
+
+.content-right h3 {
+    margin-bottom: 7px;
+}
+
+.adress {
+    margin-bottom: 7px;
+}
+
+.opening-hours {
+    margin-bottom: 7px;
+}
+
+.opening-hours h4 {
+    margin-bottom: 4px;
+}
+
+.contact {
+    margin-bottom: 8px;
+}
+
+.contact a {
+    text-decoration: underline;
+    color: #000;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    color: #243573;
+}
+
+.btn-maps {
+    margin-top: 5px;
+    width: 135px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: #243573;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.btn-maps:hover {
+    background-color: #091f66;
+}
+
+.btn-maps a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 3px;
+}
+
+.container-bv {
+    display: flex;
+    justify-content: center;
+    max-width: 1480px;  
+    
+}
+
+#box-bv {
+    margin-right: 120px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.subtitle-local {
+    text-align: center;
+    margin: 20px 0;
+    color: #243573;
+}
+
+.linha {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: #243573;
+    max-width: 1470px;
+    height: 4px;
+    border: none;
+}
+
+
+/* Responsive */ 
+
+@media (min-width: 375px) and (max-width: 667px) {
+
+    .title h1{
+        font-size: 40px;
+    }
+
+    .box-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .content-right h3 {
+        font-size: 26px;
+    }
+
+    .adress p {
+        font-size: 18px;
+    }
+
+    .opening-hours h4 {
+        font-size: 17px;
+    }
+
+    .opening-hours p {
+        font-size: 18px;
+    }
+
+    .contact a {
+        font-size: 17px;
+    }
+
+    .btn-maps a {
+        font-size: 14px;
+    }
+
+    #img-bh {
+        margin: 0 auto;
+    }
+
+    #img-db {
+        margin: 0 auto;
+    }
+
+    #img-bv {
+        margin: 0 auto;
+    }
+
+    #img-gc {
+        margin: 0 auto;
+    }
+
+    #img-std5 {
+        margin: 0 auto;
+    }
+
+    #img-pn {
+        margin: 0 auto;
+    }
+
+    #img-via {
+        margin: 0 auto;
+    }
+
+    hr {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        background-color: #243573;
+        width: 100%;
+        height: 4px;
+        border: none;
+    }
+
+    .container-bv #box-bv {
+        display: flex;
+        margin: 0 auto;
+        
+    }
+}
+
+
+
+ 
